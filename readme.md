@@ -1,6 +1,6 @@
 ###
 <p align="center">
-  <img src="https://raw.githubusercontent.com/S3fflexDev/oxide-mc/assets/main/img/logo.png" width="150" alt="OxideMC Logo">
+  <img src="img/logo.png" width="300" alt="OxideMC Logo">
   <br>
   <b>A high-performance, lightweight Minecraft engine core written in Rust.</b>
 </p>
