@@ -1,4 +1,5 @@
-use mc_lib::OxideLauncher; // Cambia mc_lib por el nombre de tu paquete
+use oxide_mc::OxideLauncher;
+// Cambia mc_lib por el nombre de tu paquete
 
 #[tokio::test]
 async fn test_install() {
