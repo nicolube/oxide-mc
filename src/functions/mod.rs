@@ -3,7 +3,7 @@ use std::path::Path;
 use tokio::fs;
 use tokio::io::AsyncWriteExt;
 use zip_extract::extract;
-use crate::fabic_manifest_model::{FabricLibrary, FabricProfile};
+use crate::fabric_manifest_model::{FabricLibrary, FabricProfile};
 use crate::models::{AssetIndex, AssetIndexContent, VersionManifest}; // Structs
 
 pub async fn get_manifest() -> anyhow::Result<VersionManifest> {

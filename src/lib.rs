@@ -5,7 +5,7 @@ use crate::functions::{check_java_version, download_java_runtime};
 pub mod models;
 pub mod functions;
 pub mod launcher;
-pub mod fabic_manifest_model;
+pub mod fabric_manifest_model;
 
 pub struct LauncherConfig {
     pub game_path: PathBuf,
